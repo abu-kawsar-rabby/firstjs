@@ -1,6 +1,7 @@
 /*
+!------Problem No: 5-------!
 three friends gems as a input and there multiple by serially 21,32,43 
-and sum the total diamond, if total diamond greater then 2000 then output will be then rest ammount from 2000 .else it will return total daimond 
+and sum the total diamond, if total diamond greater then 2000 then output will be the rest ammount from 2000. else it will return total daimond of three friend's sum.
 */ 
 
 function gemsToDiamond(number1, number2, number3){
@@ -21,6 +22,3 @@ function gemsToDiamond(number1, number2, number3){
         return "please input 3 number.";
     }
 }
-
-const finalDiamond = gemsToDiamond(1,1);
-console.log(finalDiamond);

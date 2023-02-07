@@ -1,3 +1,7 @@
+/* 
+!------Problem No: 2-------!
+ this function will take only 'string' as a input and it will be return output as even/odd defined by the length of input..
+*/
 function evenOdd(name){
     const result = [];
     if(typeof name === 'string'){
@@ -14,6 +18,3 @@ function evenOdd(name){
         return 'please input a string.';
     }
 }
-
-const isEvenOdd  = evenOdd('chatgpt');
-console.log(isEvenOdd);

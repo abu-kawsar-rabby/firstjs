@@ -1,3 +1,7 @@
+/* 
+!------Problem No: 4-------!
+this function will take array as a input and output will be the number length of less then 0 , less then 0 number is the bad data
+ */
 function findingBadData(numbers){
     const badData = [];
     if(Array.isArray(numbers)){
@@ -12,13 +16,5 @@ function findingBadData(numbers){
     }
     else{
         return "please input array of numbers.";
-    }
-
-    
-    
+    }    
 }
-
-const finalData = findingBadData([66, 'jj']);
-console.log(finalData);
-
-
