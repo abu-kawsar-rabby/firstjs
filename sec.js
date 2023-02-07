@@ -1,15 +1,19 @@
 function evenOdd(name){
-    let result = [];
-    const nameLength = name.length;
-    if(nameLength % 2 == 0){
-        const isEven ='even';
-        return isEven;
+    const result = [];
+    if(typeof name === 'string'){
+        if(name.length % 2 == 0){
+            const isEven ='even';
+            return isEven;
+        }
+        else{
+            const isOdd ="odd";
+            return isOdd ;
+        }
     }
     else{
-        const isOdd ="odd";
-        return isOdd ;
+        return 'please input a string.';
     }
 }
 
-const isEvenOdd  = evenOdd("chatgpta");
+const isEvenOdd  = evenOdd(9999);
 console.log(isEvenOdd);

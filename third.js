@@ -1,5 +1,5 @@
 function isLGSeven(number){
-    let minusNumber = number - 7;
+    const minusNumber = number - 7;
     if(minusNumber < 7){
         return minusNumber;
     }
@@ -9,5 +9,6 @@ function isLGSeven(number){
     }
 
 }
-const finalOutput = isLGSeven(-15);
+
+const finalOutput = isLGSeven(14);
 console.log(finalOutput);
