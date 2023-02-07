@@ -22,11 +22,3 @@ const finalData = findingBadData([66, 'jj']);
 console.log(finalData);
 
 
-
-// for(let i=0; i < numbers.length; i++){
-//     const index = i;
-//     const number = numbers[index];
-//     if (number < 0){
-//         badData.push(number);
-//     }
-// }

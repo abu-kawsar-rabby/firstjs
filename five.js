@@ -1,5 +1,8 @@
-// three friends gems as a input and there multiple by serially 21,32,43 
-// and sum the total diamond, if total diamond greater then 2000 then output will be then rest ammount from 2000 .else it will return total daimond 
+/*
+three friends gems as a input and there multiple by serially 21,32,43 
+and sum the total diamond, if total diamond greater then 2000 then output will be then rest ammount from 2000 .else it will return total daimond 
+*/ 
+
 function gemsToDiamond(number1, number2, number3){
     if(typeof number1 === 'number' && typeof number2 === 'number' && typeof number3 === 'number'){
         const friend1Diamond = number1 * 21;
