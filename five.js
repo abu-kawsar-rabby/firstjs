@@ -12,5 +12,5 @@ function gemsToDiamond(number1, number2, number3){
     }
 }
 
-const finalDiamond = gemsToDiamond(100,5,1);
+const finalDiamond = gemsToDiamond(1,1,1);
 console.log(finalDiamond);

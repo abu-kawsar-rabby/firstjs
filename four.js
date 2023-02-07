@@ -11,5 +11,5 @@ function findingBadData(numbers){
     return badData.length;
 }
 
-const finalData = findingBadData([20, -32, 93, 62, 42, 2, 40, 67]);
+const finalData = findingBadData([-4,-9,-5,-33,-55]);
 console.log(finalData);
