@@ -1,15 +1,32 @@
 function findingBadData(numbers){
     const badData = [];
-    for(let i=0; i < numbers.length; i++){
-        const index = i;
-        const number = numbers[index];
-        if (number < 0){
-            badData.push(number);
+    if(Array.isArray(numbers)){
+        for(let i=0; i < numbers.length; i++){
+            const index = i;
+            const number = numbers[index];
+            if (number < 0){
+                badData.push(number);
+            }
         }
+        return badData.length;
     }
+    else{
+        return "please input array of numbers.";
+    }
+
     
-    return badData.length;
+    
 }
 
-const finalData = findingBadData([-4,-9,-5,-33,-55]);
+const finalData = findingBadData([66, 'jj']);
 console.log(finalData);
+
+
+
+// for(let i=0; i < numbers.length; i++){
+//     const index = i;
+//     const number = numbers[index];
+//     if (number < 0){
+//         badData.push(number);
+//     }
+// }
