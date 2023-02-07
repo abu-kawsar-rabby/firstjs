@@ -1,19 +1,17 @@
-function evenOdd(name){
-    const result = [];
-    if(typeof name === 'string'){
-        if(name.length % 2 == 0){
-            const isEven ='even';
-            return isEven;
-        }
-        else{
-            const isOdd ="odd";
-            return isOdd ;
-        }
+function isLGSeven(number){
+    const minusNumber = number - 7;
+    if(minusNumber < 7){
+        return minusNumber;
     }
-    else{
-        return 'please input a string.';
+    else if (minusNumber >= 7){
+        const doubleNumber = number * 2;
+        return doubleNumber;
     }
+
 }
 
-const isEvenOdd  = evenOdd(9999);
-console.log(isEvenOdd);
+const finalOutput = isLGSeven(15);
+console.log(finalOutput);
+
+
+
